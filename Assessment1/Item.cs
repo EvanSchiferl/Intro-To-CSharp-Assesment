@@ -8,6 +8,7 @@ namespace Assessment1
 {
     class Item
     {
+        //allows appearance of items on shop list and player list
         public int ItemId;
         public string ItemName;
         public int Cost;
