@@ -17,6 +17,10 @@ namespace Assessment1
             List<Item> shopInventory = new List<Item>();
             List<Item> playerInventory = new List<Item>();
 
+            Item testItem1 = new Item();
+            Item testItem2 = new Item(10, "Test Item", 999);
+            Item testItem3 = testItem2;
+
             while (true)
             {
                 Console.WriteLine("Would you like to (quest), (shop), check your (inventory), or check your (coinpurse)?");

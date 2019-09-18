@@ -11,5 +11,17 @@ namespace Assessment1
         public int ItemId;
         public string ItemName;
         public int Cost;
+
+        public Item()
+        {
+
+        }
+
+        public Item(int itemID, string itemName, int cost)
+        {
+            ItemId = itemID;
+            ItemName = itemName;
+            Cost = cost;
+        }
     }
 }
