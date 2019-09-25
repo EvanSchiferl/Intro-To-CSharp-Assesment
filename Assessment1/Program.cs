@@ -21,6 +21,15 @@ namespace Assessment1
             Item testItem2 = new Item(10, "Test Item", 999);
             Item testItem3 = testItem2;
 
+            List<Item> testItems = new List<Item>();
+            testItems.Add(new Sword(10, "Big Sword", 100, 10, 400));
+            testItems.Add(new Potion(9, "Healing Potion", 25, 100));
+
+            testItems[0].DisplayItemData();
+            testItems[1].DisplayItemData();
+
+            Console.WriteLine("\n\n\n\nPolymorphism Above^\n\n\n");
+
             while (true) //loops to start whenever a function ends
             {
                 Console.WriteLine("Would you like to (quest), (shop), check your (inventory), or check your (coinpurse)?"); //prompts player inputs
